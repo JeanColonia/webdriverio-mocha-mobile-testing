@@ -16,6 +16,6 @@ config.capabilities = [
  'appium:autoGrantPermissions': true
 }
 ]
-
+config.services = ['appium'],
 
 exports.config = config;

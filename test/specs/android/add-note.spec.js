@@ -1,6 +1,13 @@
+
 describe('dsadsads', async() => {
- await driver.pause(100);
+ 
+ before(async() => {
+  await driver.pause(500);
+ });
+
  it('dsadsadsa', async() => {
   await driver.pause(100);
  });
+
+ 
 });

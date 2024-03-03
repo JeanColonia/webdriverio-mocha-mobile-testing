@@ -1,11 +1,11 @@
 
-class MainScreen{
+class MercadoLibreMainScreen{
 
 constructor() {
 }
 
 
-async click() {
+async click(ele) {
 
  await ele.waitForClickable({ timeout: 5000 });
  if (!ele.elementId) {
@@ -38,4 +38,4 @@ async typeInto(ele, text) {
 }
 
 
-export default new MainScreen();
+export default new MercadoLibreMainScreen();

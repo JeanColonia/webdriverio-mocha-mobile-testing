@@ -8,19 +8,19 @@ class ZaraPurchaseScreen{
 
  
  get useOfCookies(){
-  return $('//*[@resource-id="com.inditex.zara:id/zaraButtonLabel"]');
+  return $('//android.widget.TextView[@text="ACCEPT"]');
  }
  
  get touchOutside(){
-  return $('//*[@resource-id="com.inditex.zara:id/touch_outside"]')
+  return $('//android.view.View[@resource-id="com.inditex.zara:id/touch_outside"]')
  }
  get searchBtn(){
-  return $('//*[@resource-id="com.inditex.zara:id/search_view_text"]');
+  return $('//android.widget.TextView[@text="SEARCH"]');
  }
 
 
  get searchInput(){
-  return $('//*[@resource-id="com.inditex.zara:id/search_text_field_edit_text"]');
+  return $('//android.widget.EditText[@resource-id="com.inditex.zara:id/search_text_field_edit_text"]');
 
   // KEYS ENTER
  }
@@ -28,7 +28,7 @@ class ZaraPurchaseScreen{
 
  async product(product_){
 
-  return $(`//*[@text="${product_}"]`);
+  return $(`//android.widget.TextView[@text="${product_}"]`);
   
  }
 

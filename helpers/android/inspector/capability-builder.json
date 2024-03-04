@@ -3,6 +3,6 @@
   "appium:platformVersion": "11.0",
   "appium:deviceName": "Pixel 3",
   "appium:automationName": "UIAutomator2",
-  "appium:app": "C:/Users/Jean/Desktop/files/code/QA/Automation/Mobile/wdio-mocha-mobile/app/android/mercadolibre.apk",
+  "appium:app": "C:/Users/Jean/Desktop/files/code/QA/Automation/Mobile/wdio-mocha-mobile/app/android/zara.apk",
   "appium:autoGrantPermissions": "true"
 }

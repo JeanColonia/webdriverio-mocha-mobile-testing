@@ -14,14 +14,15 @@
     "@wdio/visual-service": "^3.1.0",
     "appium": "^2.0.1",
     "appium-uiautomator2-driver": "^3.0.1",
+    "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-plugin-wdio": "^8.24.12",
+    "global-agent": "^3.0.0",
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.shared.conf.js"
-  },
-  "dependencies": {
-    "dotenv": "^16.4.5"
+    "wdio": "wdio run ./wdio.shared.conf.js",
+    "wdio:android:purchase": "npx wdio run config/wdio.android.conf.js --spec purchase.spec.js",
+    "wdio:bs:purchase": "npx wdio run config/wdio.android.bs.conf.js"
   }
 }

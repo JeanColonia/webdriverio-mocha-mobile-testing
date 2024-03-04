@@ -1,7 +1,7 @@
 
-const ZaraPurchaseScreen = require('../../screen-objects/android/purchase.screen.js');
+const ZaraPurchaseScreen = require('../../screen-objects/android/ZaraPurchase.screen.js');
 
-const requestData = require('../../data/purchase/pants-request-data.json');
+const requestData = require('../../data/pants-request-data.json');
 
 describe('Zara App', () => {
  

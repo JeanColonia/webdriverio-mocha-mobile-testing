@@ -20,7 +20,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.shared.conf.js",
-    "wdio:android:purchase": "npx wdio run config/wdio.android.conf.js --spec purchase.spec.js"
+    "wdio:android:purchase": "npx wdio run config/wdio.android.conf.js --spec purchase.spec.js",
+    "wdio:bs:purchase": "npx wdio run config/wdio.android.bs.conf.js --spec purchase.spec.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5"

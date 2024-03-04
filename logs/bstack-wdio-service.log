@@ -1,0 +1,11 @@
+[90m2024-03-04T02:45:30.986Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-03-04T02:45:30.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-03-04T02:45:31.876Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"rivnvlnz0q4syo7siepxcx6zdbe1kthlenm81u5m","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI4Mzc0MTYwIiwiZ3JvdXBfaWQiOjgyODcxNDIsInVzZXJfaWQiOjgzNzQxNjAsImJ1aWxkX2hhc2hlZF9pZCI6InJpdm52bG56MHE0c3lvN3NpZXB4Y3g2emRiZTFrdGhsZW5tODF1NW0iLCJob29rX2FzX3Rlc3QiOiIxIiwiaWF0IjoxNzA5NTIwMzMxLCJleHAiOjE3MDk4NjU5MzF9.08dYYFtr8y8lZRlkEUkXUzazCutPjZ4eOZKHqcVHPyc","allow_screenshots":true}
+[90m2024-03-04T02:45:31.876Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-03-04T02:48:26.354Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-03-04T02:48:26.354Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+2024-03-04T02:48:27.108Z DEBUG @wdio/browserstack-service Executing observability cleanup
+2024-03-04T02:48:27.570Z DEBUG @wdio/browserstack-service [STOP_BUILD] Success response: ""
+2024-03-04T02:48:27.570Z INFO @wdio/browserstack-service 
+Visit https://observability.browserstack.com/builds/rivnvlnz0q4syo7siepxcx6zdbe1kthlenm81u5m to view build report, insights, and many more debugging information all at one place!
+

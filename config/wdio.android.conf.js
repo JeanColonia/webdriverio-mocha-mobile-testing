@@ -12,7 +12,7 @@ config.capabilities = [
  'appium:platformVersion': '11.0',
  'appium:deviceName': 'Pixel 3',
  'appium:automationName': 'UIAutomator2',
- 'appium:app':path.join(process.cwd(),'app/android/mercadolibre.apk'),
+ 'appium:app':path.join(process.cwd(),'app/android/zara.apk'),
  'appium:autoGrantPermissions': true
 }
 ]

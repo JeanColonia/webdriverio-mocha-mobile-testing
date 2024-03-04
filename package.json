@@ -19,7 +19,8 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.shared.conf.js"
+    "wdio": "wdio run ./wdio.shared.conf.js",
+    "wdio:android:purchase": "npx wdio run config/wdio.android.conf.js --spec purchase.spec.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5"

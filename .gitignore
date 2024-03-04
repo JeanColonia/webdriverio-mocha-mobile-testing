@@ -4,3 +4,4 @@ app
 ./app
 ./app/android/
 ./app/ios/
+logs

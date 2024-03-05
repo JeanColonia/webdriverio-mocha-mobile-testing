@@ -22,4 +22,15 @@ config.specs=[
  path.join(process.cwd(),'./test/specs/android/*.spec.js'),
 ]
 
+
+config.reporters=['allure'];
+config.reporterOptions={
+ allure: {
+  outputDir: 'allure-result',
+  disableWebdriverStepsReporting: true,
+  disableWebdriverScreenshotsReporting: false,
+  useCucumberStepReporter: false
+}
+}
+
 exports.config = config;

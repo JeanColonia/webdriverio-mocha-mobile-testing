@@ -76,3 +76,7 @@
     package-lock.json
     package.json
     README.md
+
+
+### Ejecución de pruebas en ambiente local:
+    [!(local.png)](https://i.postimg.cc/MGjFvfQG/local.png)

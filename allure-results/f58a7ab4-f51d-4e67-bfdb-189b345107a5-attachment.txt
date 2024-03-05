@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//android.widget.ImageView[@resource-id=\"com.inditex.zara:id/colorPickerBorder\"])[3]"
+}

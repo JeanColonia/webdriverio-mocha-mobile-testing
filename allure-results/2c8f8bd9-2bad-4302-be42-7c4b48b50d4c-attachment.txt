@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.EditText[@resource-id=\"com.inditex.zara:id/search_text_field_edit_text\"]"
+}

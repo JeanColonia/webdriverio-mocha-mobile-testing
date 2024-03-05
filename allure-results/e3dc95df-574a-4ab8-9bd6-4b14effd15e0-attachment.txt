@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.view.View[@resource-id=\"com.inditex.zara:id/touch_outside\"]"
+}

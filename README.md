@@ -79,4 +79,19 @@
 
 
 ### Ejecución de pruebas en ambiente local:
-    [!(local.png)](https://i.postimg.cc/MGjFvfQG/local.png)
+[![local.png](https://i.postimg.cc/MGjFvfQG/local.png)](https://postimg.cc/d7wBf1nM)
+
+
+### Ejecución Cloud BrowserStacks:
+[![browserstacks.png](https://i.postimg.cc/jS11x4C9/browserstacks.png)](https://postimg.cc/bZQgLbxH)
+
+
+
+### Ejecución mediante Integración Continua con Github Actions y BrowserStacks:
+
+#### Github Actions
+[![github-actions.png](https://i.postimg.cc/7ZhcrWP0/github-actions.png)](https://postimg.cc/9D31G17Q)
+
+
+#### BrowserStacks
+[![browserstacks-github-actions.png](https://i.postimg.cc/qBcWsKZh/browserstacks-github-actions.png)](https://postimg.cc/hhjCgXnc)

@@ -18,4 +18,8 @@ config.capabilities = [
 ]
 config.services = ['appium'],
 
+config.specs=[
+ path.join(process.cwd(),'./test/specs/android/*.spec.js'),
+]
+
 exports.config = config;

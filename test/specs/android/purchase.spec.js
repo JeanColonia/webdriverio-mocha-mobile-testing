@@ -19,7 +19,10 @@ describe('Zara App', () => {
  }
  
 await driver.pause(1000);
-await ZaraPurchaseScreen.touchOutside.click();
+const flagTouchOutside = await ZaraPurchaseScreen.touchOutside.isDisplayed();
+ if(flagTouchOutside){
+   await ZaraPurchaseScreen.touchOutside.click();
+ }
 await driver.pause(1000);
 await ZaraPurchaseScreen.searchBtn.click();
 await driver.pause(1000);
